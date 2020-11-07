@@ -96,6 +96,7 @@ export default styled(Home)`
     align-items: center;
     margin-bottom: 24px;
     flex-direction: column;
+    margin-top: -100px;
   }
 
   .avatar__image {

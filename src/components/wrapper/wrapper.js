@@ -19,6 +19,7 @@ const Wrapper = styled.main.attrs({
   ${(props) => config(props).media.sm`
     width: 80%;
     padding: 50px;
+    padding-top: 0;
   `}
 `
 
