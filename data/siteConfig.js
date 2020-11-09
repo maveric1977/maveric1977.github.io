@@ -107,7 +107,7 @@ module.exports = {
     email: "yashar@moradi.space"
   },
   siteUrl: 'https://maveric1977.github.io/',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/lut.jpg',
   googleAnalyticsId: 'UA-000000000-1',
   background_color: '#ffffff',
