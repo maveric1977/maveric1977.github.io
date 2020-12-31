@@ -11,30 +11,35 @@ module.exports = {
   <br>During my career, I had the honor to set up and cooperate with several very successful, very talented multinational product development teams.`,
   skills: [
     {
-      name: 'Java',
-      level: 70
+      name: 'Leadership'
     },
     {
-      name: 'CSS',
-      level: 60
+      name: 'Agile/Scrum'
     },
     {
-      name: 'Javascript',
-      level: 50
+      name: 'Software Architecture'
     },
     {
-      name: 'NodeJs',
-      level: 40
+      name: 'Geospatial'
     },
     {
-      name: 'React',
-      level: 60
+      name: 'Process optimization'
     },
     {
-      name: 'Git',
-      level: 70
+      name: 'Microservices'
     },
-    /* more skills here */
+    {
+      name: 'Design patterns'
+    },
+    {
+      name: 'Strategic planning'
+    },
+    {
+      name: 'Lean startup'
+    },
+    {
+      name: 'Scalability'
+    }
   ],
   jobs: [
     /* more jobs here */
@@ -46,7 +51,7 @@ module.exports = {
       },
       duration: null,
       occupation: "CTO",
-      description: ""
+      description: `Scoperty is a Munich based start-up with the vision to disrupt the real estate market and become THE C2C housing transaction platform by providing transparency, access, convenience, and cost-efficiency.`
   
     },  {
       company: "cloudeo",
@@ -56,7 +61,7 @@ module.exports = {
       },
       duration: '1 yr 7 mos',
       occupation: "CTO",
-      description: ""
+      description: `cloudeo operates a unique, vendor independent, data agnostic market platform through which customers can obtain professional geoinformation services from leading national and international providers at low cost.`
   
     }, {
       company: "NavVis",
@@ -66,7 +71,7 @@ module.exports = {
       },
       duration: '1 yr 3 mos',
       occupation: "Technical Lead",
-      description: ""
+      description: `NavVis develops next-generation technology for the built environment that enables accurate mobile mapping of indoor spaces, fully immersive 3D buildings and enterprise-ready digital twin solutions.`
     }, {
       company: "GAF",
       begin: {
@@ -75,7 +80,7 @@ module.exports = {
       },
       duration: '3 yrs',
       occupation: "Senior Solution Developer",
-      description: ""
+      description: "GAF is one of the leading companies in the geo-spatial service market"
     }, {
       company: "disy Informationssysteme",
       begin: {
@@ -84,21 +89,21 @@ module.exports = {
       },
       duration: '2 yrs 6 mos',
       occupation: "Project Manager / Consultant / Solution Developer",
-      description: ""
+      description: "Disy is a leading provider of solutions for data analysis and reporting for specialist authorities in German-speaking countries."
     }
   ],
   portifolio: [
-    {
-      image: "/images/gatsby-starter-cv.png",
-      description: "Gatsby starter CV template",
-      url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
-    },
-    {
-      image: "/images/awesome-grid.png",
-      description: "Responsive grid for ReactJS",
-      url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
-    },
-    /* more portifolio items here */
+  //   {
+  //     image: "/images/gatsby-starter-cv.png",
+  //     description: "Gatsby starter CV template",
+  //     url: "https://www.gatsbyjs.org/starters/santosfrancisco/gatsby-starter-cv/"
+  //   },
+  //   {
+  //     image: "/images/awesome-grid.png",
+  //     description: "Responsive grid for ReactJS",
+  //     url: "https://github.com/santosfrancisco/react-awesome-styled-grid"
+  //   },
+  //   /* more portifolio items here */
   ],
   social: {
     twitter: "https://twitter.com/yasharmoradi",
@@ -109,7 +114,7 @@ module.exports = {
   siteUrl: 'https://maveric1977.github.io/',
   pathPrefix: '', // Note: it must *not* have a trailing slash.
   siteCover: '/images/lut.jpg',
-  googleAnalyticsId: 'UA-000000000-1',
+  googleAnalyticsId: 'UA-29618029-1',
   background_color: '#ffffff',
   theme_color: '#25303B',
   fontColor: "#000000cc",
@@ -117,13 +122,5 @@ module.exports = {
   display: 'minimal-ui',
   icon: 'src/assets/gatsby-icon.png',
   headerLinks: [
-    {
-      label: 'Home',
-      url: '/',
-    },
-    {
-      label: 'Portifolio',
-      url: '/portifolio',
-    }
   ]
 }
