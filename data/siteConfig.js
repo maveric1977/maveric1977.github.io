@@ -6,12 +6,16 @@ module.exports = {
   twitterUsername: 'yasharmoradi',
   githubUsername: 'maveric1977',
   authorAvatar: '/images/yashar.jpg',
-  authorDescription: `I am a seasoned technology leader, software architect and lean/agile coach with more than 20 years of experience in the design and development of software solutions with main focus on geo-intelligence and geospatial domain.
-  
-  <br>During my career, I had the honor to set up and cooperate with several very successful, very talented multinational product development teams.`,
+  authorDescription: `I am a seasoned technology leader, software architect, and lean/agile coach with over 25 years of experience designing and developing data-driven solutions, setting up, coaching, managing, and cooperating with several very successful, immensely talented multinational product development teams.`,
   skills: [
     {
       name: 'Leadership'
+    },
+    {
+      name: 'Cloud computing'
+    },
+    {
+      name: 'DevSecOps'
     },
     {
       name: 'Agile/Scrum'
@@ -51,7 +55,7 @@ module.exports = {
       },
       duration: null,
       occupation: "CTO",
-      description: `Scoperty is a Munich based start-up with the vision to disrupt the real estate market and become THE C2C housing transaction platform by providing transparency, access, convenience, and cost-efficiency.`
+      description: `Scoperty is a Munich-based start-up with the vision to disrupt the real estate market by providing transparency, access, and cost-efficiency. (https://scoperty.de)`
   
     },  {
       company: "cloudeo",
